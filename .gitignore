@@ -5,3 +5,4 @@ __pycache__/
 .ipynb_checkpoints/
 *.log
 *.DS_Store
+shapefiles/tl_2022_us_zcta520/tl_2022_us_zcta520.shp
