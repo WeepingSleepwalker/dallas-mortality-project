@@ -1,6 +1,28 @@
 This project models synthetic mortality risk across Dallas-area ZIP codes using demographic predictors from the American Community Survey. Due to privacy constraints on granular death counts, ZIP-level risk is inferred from county-level mortality rates, adjusted for age, income, education, and race. The resulting scores highlight spatial disparities and identify neighborhoods with elevated risk exposure. Data is visualized via a choropleth map using GeoPandas, enabling clear geographic insight into public health vulnerability. This analysis can support resource allocation, outreach prioritization, or further modeling by city or nonprofit stakeholders.
 
-# Dallas County ZIP-Level Mortality Estimates (2011–2022)
+# Dallas Mortality Mapping
+
+This project analyzes spatial patterns in mortality across Dallas ZIP codes using demographic and death rate data. The output is an interactive choropleth map that visualizes estimated deaths per 1,000 residents over time.
+
+## 📂 Project Structure
+
+- `data/`: Raw demographic and mortality CSV data
+- `outputs/`: Processed shapefiles and final maps
+- `notebooks/` or `main.py`: Data processing and map rendering logic
+- `requirements.txt`: Python dependencies
+
+## 📊 Output: Mortality Map
+
+The main output is a choropleth map showing death rates per ZIP code in Dallas County.
+
+### ✅ To Check the Map Output
+
+1. Make sure all dependencies are installed:
+   ```bash
+   pip install -r requirements.txt
+
+
+# Dallas County ZIP-Level Mortality Estimates (2018–2022)
 
 This dataset and codebase estimates yearly death counts and death rates at the ZIP code level for Dallas County, Texas, based on population-adjusted scaling of official county-wide death totals.
 
